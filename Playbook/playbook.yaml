@@ -1,0 +1,6 @@
+- name: 'Execute a command on webserver'
+  hosts: webserver
+  tasks:
+    - name: 'Run a shell command'
+      ansible.builtin.shell: 'echo "Hello, World!"'
+      register: command_output

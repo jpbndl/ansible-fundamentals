@@ -1,0 +1,5 @@
+appserver1 ansible_host=appserver1 ansible_ssh_pass=Test123
+appserver2 ansible_host=appserver2 ansible_ssh_pass=Test123
+[app_nodes]
+appserver1
+appserver2
