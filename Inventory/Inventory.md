@@ -59,3 +59,13 @@ all:
 #### Why do we need different formats?
 - INI format is simpler and easier to read for small inventories.
 - YAML format is more flexible and better suited for complex inventories, supporting nested groups and advanced configuration options.YAML format
+
+#### Why do we need grouping?
+- **Organization**: Manage large inventories by grouping hosts logically (e.g., webservers, databases).
+- **Simplified management**: Apply tasks or variables to multiple hosts at once by targeting groups.
+- **Scalability**: Easily scale operations across similar hosts without repetitive configuration.
+- **Environment separation**: Distinguish between dev, staging, and production environments using groups.
+- **Role assignment**: Assign specific roles or responsibilities to groups for clearer automation workflows.
+
+#### Why do we need parent-child relationship?
+- **Hierarchical organization**: Reflects real-world infrastructure where certain systems depend on others.
