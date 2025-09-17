@@ -163,4 +163,3 @@ server:
         name: nginx
         state: restarted
 ```
-    
